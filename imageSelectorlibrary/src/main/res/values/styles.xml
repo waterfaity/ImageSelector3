@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="ImageSelectorAppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/imageSelectorColorPrimary</item>
+        <item name="colorPrimaryDark">@color/imageSelectorColorPrimaryDark</item>
+        <item name="colorAccent">@color/imageSelectorColorAccent</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="ImageSelectorNoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/imageSelectorColorMain</item>
+        <item name="colorPrimaryDark">@color/imageSelectorColorPrimaryDarkBlack</item>
+        <item name="colorAccent">@color/imageSelectorColorAccent</item>
+    </style>
+
+    <style name="ImageSelectorFullScreen" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/imageSelectorColorPrimary</item>
+        <item name="colorPrimaryDark">@color/imageSelectorColorPrimaryDark</item>
+        <item name="colorAccent">@color/imageSelectorColorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>
